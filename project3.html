@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Observability Stack — Maksim Ivanuta</title>
+  <meta name="description" content="End‑to‑end monitoring with Prometheus, Grafana, and ELK for actionable insights." />
+  <link rel="stylesheet" href="styles.css" />
+  <meta property="og:title" content="Observability Stack — Maksim Ivanuta" />
+  <meta property="og:description" content="End‑to‑end monitoring with Prometheus, Grafana, and ELK for actionable insights." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1200&auto=format&fit=crop" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-container">
+      <div class="brand">
+        <a href="index.html" aria-label="Go to homepage">
+          <span class="logo">MI</span>
+          <span class="brand-text">Maksim Ivanuta</span>
+        </a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-controls="site-nav" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="site-nav" class="site-nav" role="navigation">
+        <ul>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+          <li class="divider" aria-hidden="true"></li>
+          <li><a href="project1.html">Project 1</a></li>
+          <li><a href="project2.html">Project 2</a></li>
+          <li><a href="project3.html">Project 3</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero-project">
+    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1200&auto=format&fit=crop" alt="Observability Stack cover image" />
+    <div class="overlay">
+      <div class="title">
+        <h1>Observability Stack</h1>
+        <p class="meta">
+          <span class="tag">Prometheus</span>
+          <span class="tag">Grafana</span>
+          <span class="tag">ELK</span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <main class="section">
+    <div class="container prose">
+      <h2>Overview</h2>
+      <p>To reduce MTTR and improve reliability, I delivered a unified observability platform that correlates metrics, logs, and alerts.</p>
+
+      <h3>What I Built</h3>
+      <ul>
+        <li>Prometheus metrics collection and custom exporters</li><li>Grafana dashboards with SLOs and error budgets</li><li>ELK stack for centralized logs and search</li><li>Alerting & on‑call workflows with actionable playbooks</li><li>Security hardening and RBAC for least‑privilege access</li>
+      </ul>
+
+      <h3>Results</h3>
+      <p>We cut median time to detect issues by ~60% and established clear SLOs, making on‑call calmer and more predictable.</p>
+
+      <p><a class="btn" href="index.html">Back to Home</a></p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Maksim Ivanuta</p>
+      <div class="social">
+        <a href="https://github.com/iv-max" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5a12 12 0 0 0-3.79 23.4c.6.11.82-.26.82-.58v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.55-1.4-1.35-1.77-1.35-1.77-1.1-.75.08-.73.08-.73 1.22.09 1.86 1.25 1.86 1.25 1.08 1.85 2.84 1.31 3.53 1 .11-.78.42-1.31.76-1.61-2.67-.31-5.48-1.33-5.48-5.94 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.53.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.62-2.81 5.62-5.49 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.69.82.58A12 12 0 0 0 12 .5Z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/ivanuta/" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5.001 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h4v2h.06c.56-1.06 1.93-2.18 3.97-2.18 4.24 0 5.02 2.79 5.02 6.41V21h-4v-4.79c0-1.15-.02-2.64-1.61-2.64-1.61 0-1.86 1.26-1.86 2.56V21H9z"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
