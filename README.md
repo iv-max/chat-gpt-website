@@ -1,4 +1,6 @@
 # Chat‑GPT Website
+Maksim Ivaniuta
+Demonstration of deploying website to github pages.
 
 ## The Purpose of Repository
 
