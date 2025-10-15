@@ -3,7 +3,8 @@
   box-sizing: border-box;
 }
 :root {
-  --bg: #0f0f11;
+  --bg: #3f3f3f;
+    /* --bg: #0f0f11; */
   --fg: #e6e6e9;
   --muted: #b5b5b9;
   --line: #2a2a2e;
