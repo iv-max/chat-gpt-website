@@ -37,7 +37,7 @@ By using GitHub Actions instead of the default GitHub Pages publishing, we gain 
 
 ---
 
-Previous steps:
+# Previous steps:
 
 
 ## Steps I Took to Set Up Git and Push Code
